@@ -1,0 +1,14 @@
+Package: bsam
+Version: 0.1
+Depends: R(>= 3.5.0), methods, Rcpp(>= 0.12.15)
+Imports: stats, utils, graphics, lavaan(>= 0.6-16), blavaan(>= 0.5-3),
+        coda, mnormt, nonnest2(>= 0.5-5), loo(>= 2.0), rstan(>=
+        2.26.0), rstantools(>= 1.5.0), RcppParallel (>= 5.0.1),
+        bayesplot, Matrix, future.apply, tmvnsim
+LinkingTo: StanHeaders (>= 2.26.0), rstan (>= 2.26.0), BH (>= 1.69.0),
+        Rcpp (>= 0.12.15), RcppEigen (>= 0.3.3.4.0), RcppParallel (>=
+        5.0.1)
+Suggests: modeest(>= 2.3.3), cmdstanr, semTools, tinytest
+License: GPL (>= 3)
+MD5sum: 48e5cf97e9dd2dfcdae06f61aae3d23a
+NeedsCompilation: yes
